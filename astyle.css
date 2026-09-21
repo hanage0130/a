@@ -1,0 +1,44 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.word {
+  font-size: 50px;
+  color: white;
+  white-space: pre;
+  height: 80vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: monospace;
+  /* display: flexbox; */
+  /* justify-content: center; */
+  margin-left: 100px;
+}
+
+.no-scrollbar {
+  /* Firefox用 */
+  scrollbar-width: none;
+  
+  /* IE、Edge用 */
+  -ms-overflow-style: none;
+}
+
+/* Chrome、Safari、Opera用 */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.time {
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  white-space: pre-wrap;
+}
